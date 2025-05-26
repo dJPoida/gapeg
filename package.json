@@ -1,0 +1,30 @@
+{
+  "name": "gapeg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c --environment NODE_ENV:production",
+    "dev": "rollup -c -w",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@ruffle-rs/ruffle": "^0.1.0-nightly.2025.5.25",
+    "rollup": "^4.41.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^3.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}
